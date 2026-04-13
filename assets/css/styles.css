@@ -710,12 +710,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Full Gallery Page */
 .gallery-full-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 }
 
 .gallery-full-grid .gallery-item img {
-  height: 300px;
+  height: 280px;
 }
 
 /* --- Testimonials --- */
@@ -1533,7 +1533,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-column: span 1;
   }
   .gallery-full-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .steps-grid {
     grid-template-columns: 1fr;
@@ -1586,7 +1586,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr;
   }
   .gallery-full-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
